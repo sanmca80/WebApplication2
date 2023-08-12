@@ -6,3 +6,10 @@ services:
     build:
       context: .
       dockerfile: WebApplication2\Dockerfile
+
+  autheticationservice:
+    image: ${DOCKER_REGISTRY-}autheticationservice
+    build:
+      context: .
+      dockerfile: AutheticationService\Dockerfile
+
