@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["AutheticationService/AutheticationService.csproj", "AutheticationService/"]
 RUN dotnet restore "AutheticationService/AutheticationService.csproj"
-COPY . /app
+COPY . .
 WORKDIR "/src/AutheticationService"
 RUN dotnet build "AutheticationService.csproj" -c Release -o /app/build
 
