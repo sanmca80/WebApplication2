@@ -11,7 +11,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 #COPY ["GatewayServices/GatewayServices.csproj", "GatewayServices/"]
-COPY WebApplication2/* .csproj .
+COPY "WebApplication2/* .csproj ."
 RUN dotnet restore "GatewayServices/GatewayServices.csproj"
 COPY . .
 WORKDIR "/src/GatewayServices"
