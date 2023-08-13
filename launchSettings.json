@@ -5,7 +5,8 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "webapplication2": "StartDebugging",
-        "autheticationservice": "StartDebugging"
+        "autheticationservice": "StartDebugging",
+        "gatewayservices": "StartDebugging"
       }
     }
   }

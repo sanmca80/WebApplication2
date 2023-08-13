@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{F811AD83-018A-4B6F-8851-CAC1A7B3E47C}"
-EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BF31B2D7-3B7A-421B-9EA8-1CAAB047A72A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutheticationService", "AutheticationService\AutheticationService.csproj", "{0D8C7CA0-D67A-4D2C-A87A-A60890166E28}"
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F811AD83-018A-4B6F-8851-CAC1A7B3E47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F811AD83-018A-4B6F-8851-CAC1A7B3E47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F811AD83-018A-4B6F-8851-CAC1A7B3E47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F811AD83-018A-4B6F-8851-CAC1A7B3E47C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BF31B2D7-3B7A-421B-9EA8-1CAAB047A72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BF31B2D7-3B7A-421B-9EA8-1CAAB047A72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF31B2D7-3B7A-421B-9EA8-1CAAB047A72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
